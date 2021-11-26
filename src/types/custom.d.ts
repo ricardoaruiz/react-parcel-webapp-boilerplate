@@ -15,3 +15,12 @@ declare module '*.svg' {
   const src: string
   export default src
 }
+
+// Declaration for CSS Modules
+declare module '*.css' {
+  interface IClassNames {
+    [className: string]: string
+  }
+  const classNames: IClassNames;
+  export = classNames;
+}
