@@ -1,9 +1,12 @@
 import React from 'react'
 
+import { Button } from './components'
+
 const App = () => {
   return (
     <div>
-      App      
+      App  
+      <Button>Clique aqui!</Button>    
     </div>
   )
 }
