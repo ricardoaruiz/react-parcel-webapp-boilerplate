@@ -12,6 +12,7 @@ const reactLogoGif = new URL(
   './assets/images/react-logo.gif?as=webp&width=40',
   import.meta.url
 );
+import LogoReact from './assets/images/react-logo.svg'
 
 const App = () => {
   return (
@@ -22,6 +23,9 @@ const App = () => {
       <img src={reactLogoJpg} alt="react logo jpg" style={{ width: '40px' }}/>
       <img src={reactLogoJpeg.toString()} alt="react logo jpeg" style={{ width: '40px' }}/>
       <img src={reactLogoGif.toString()} alt="react logo gif" style={{ width: '40px' }}/>
+      <div style={{ display: "inline-block", width: '40px' }}>
+        <LogoReact />
+      </div>
     </div>
   )
 }
