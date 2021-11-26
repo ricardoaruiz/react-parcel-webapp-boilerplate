@@ -4,9 +4,9 @@ import './styles.css'
 
 export const ComponentWithCSS = () => {
   return (
-    <div className="cwcss-wrapper">
+    <h2 className="cwcss-wrapper">
       Component With CSS
-    </div>
+    </h2>
   )
 }
 
